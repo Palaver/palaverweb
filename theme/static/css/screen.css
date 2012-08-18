@@ -14,7 +14,7 @@ body * {
 header {
     width: 100%;
     height: 81px;
-    background: url(img/header-bg.png) repeat-x;
+    background: url(../img/header-bg.png) repeat-x;
     font-family: "pf_dindisplay_probold";
     padding: 10px 0;
     margin: 0 0 -20px 0;
@@ -24,7 +24,7 @@ header {
 
 #logo {
     display: block;
-    background: url(img/logo.png) no-repeat;
+    background: url(../img/logo.png) no-repeat;
     height: 68px;
     padding: 7px 0 0 80px;
     margin: 0 0 0 25px;
@@ -59,7 +59,7 @@ header ul li a:hover {
 }
 
 #teaser {
-    background-image: url(img/teaser.jpg), url(img/teaserbg.png);
+    background-image: url(../img/teaser.jpg), url(../img/teaserbg.png);
     background-repeat: no-repeat, repeat-x;
     background-position: top center;
     background-size: auto 100%;
@@ -73,7 +73,7 @@ header ul li a:hover {
 }
 
 #teaser-small {
-    background-image: url(img/teaser-small.png);
+    background-image: url(../img/teaser-small.png);
     background-repeat: no-repeat;
     background-position: top center;
     width: 100%;
@@ -124,7 +124,7 @@ header ul li a:hover {
 
 #teaser a {
     display: inline-block;
-    background: url(img/button.png) no-repeat;
+    background: url(../img/button.png) no-repeat;
     box-shadow: 0px 0px 100px #fff, 0px 0px 15px rgba(0,0,0,1);
     margin: 0 80px 0 0;
     width: 221px;
@@ -177,7 +177,7 @@ header ul li a:hover {
 }
 
 #def:before {
-    content: url(img/dict.png);
+    content: url(../img/dict.png);
     float: left;
     margin: 0 30px 0 0;
 }
@@ -217,21 +217,21 @@ hr {
 }
 
 #chooser li:nth-child(1):before {
-    content: url(img/chooser_01.png) no-repeat;
+    content: url(../img/chooser_01.png) no-repeat;
     width: 65px;
     height: 65px;
     margin: 7px 0 0 15px;
     float: left;
 }
 #chooser li:nth-child(2):before {
-    content: url(img/chooser_02.png) no-repeat;
+    content: url(../img/chooser_02.png) no-repeat;
     width: 80px;
     height: 65px;
     margin: 11px 0 0 0;
     float: left;
 }
 #chooser li:nth-child(3):before {
-    content: url(img/chooser_03.png) no-repeat;
+    content: url(../img/chooser_03.png) no-repeat;
     width: 65px;
     height: 65px;
     margin: 11px 0 0 15px;
@@ -239,7 +239,7 @@ hr {
 }
 
 #chooser li:hover {
-    background: url(img/chooser.png) no-repeat;
+    background: url(../img/chooser.png) no-repeat;
 }
 
 #chooser strong {
@@ -257,7 +257,7 @@ hr {
 }
 
 .full aside {
-    background: url(img/preview.png) no-repeat;
+    background: url(../img/preview.png) no-repeat;
     width: 272px; 
     height: 520px;
     float: right;
@@ -312,16 +312,16 @@ footer input#email {
 border: 2px solid #d0d0d0;
 }*/
 
-    footer input#submit {
-        margin: 19px 0 0 -30px;
-        padding: 0;
-        background: url(img/submit.png);
-        border: 0;
-        width: 22px;
-        height: 22px;
-        opacity: 0.1;
-        display: block;
-        float: left;
+footer input#submit {
+    margin: 19px 0 0 -30px;
+    padding: 0;
+    background: url(../img/submit.png);
+    border: 0;
+    width: 22px;
+    height: 22px;
+    opacity: 0.1;
+    display: block;
+    float: left;
 }
 
 footer input#submit:hover {
@@ -364,7 +364,7 @@ footer aside div p {
 
 footer aside a {
     display: inline-block;
-    background: url(img/button2.png) no-repeat;
+    background: url(../img/button2.png) no-repeat;
     margin: 0;
     width: 199px;
     height: 68px;
@@ -468,44 +468,44 @@ canvas {
 
 @font-face {
     font-family: 'pf_dindisplay_proregular';
-    src: url('fonts/pfdindisplaypro-reg-webfont.eot');
-    src: url('fonts/pfdindisplaypro-reg-webfont.eot?#iefix') format('embedded-opentype'),
-    url('fonts/pfdindisplaypro-reg-webfont.woff') format('woff'),
-    url('fonts/pfdindisplaypro-reg-webfont.ttf') format('truetype'),
-    url('fonts/pfdindisplaypro-reg-webfont.svg#pf_dindisplay_proregular') format('svg');
+    src: url('../fonts/pfdindisplaypro-reg-webfont.eot');
+    src: url('../fonts/pfdindisplaypro-reg-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/pfdindisplaypro-reg-webfont.woff') format('woff'),
+    url('../fonts/pfdindisplaypro-reg-webfont.ttf') format('truetype'),
+    url('../fonts/pfdindisplaypro-reg-webfont.svg#pf_dindisplay_proregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'pf_dindisplay_pro_mediumRg';
-    src: url('fonts/pfdindisplaypro-med-webfont.eot');
-    src: url('fonts/pfdindisplaypro-med-webfont.eot?#iefix') format('embedded-opentype'),
-    url('fonts/pfdindisplaypro-med-webfont.woff') format('woff'),
-    url('fonts/pfdindisplaypro-med-webfont.ttf') format('truetype'),
-    url('fonts/pfdindisplaypro-med-webfont.svg#pf_dindisplay_pro_mediumRg') format('svg');
+    src: url('../fonts/pfdindisplaypro-med-webfont.eot');
+    src: url('../fonts/pfdindisplaypro-med-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/pfdindisplaypro-med-webfont.woff') format('woff'),
+    url('../fonts/pfdindisplaypro-med-webfont.ttf') format('truetype'),
+    url('../fonts/pfdindisplaypro-med-webfont.svg#pf_dindisplay_pro_mediumRg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'pf_dindisplay_pro_mediumIt';
-    src: url('fonts/pfdindisplaypro-medital-webfont.eot');
-    src: url('fonts/pfdindisplaypro-medital-webfont.eot?#iefix') format('embedded-opentype'),
-    url('fonts/pfdindisplaypro-medital-webfont.woff') format('woff'),
-    url('fonts/pfdindisplaypro-medital-webfont.ttf') format('truetype'),
-    url('fonts/pfdindisplaypro-medital-webfont.svg#pf_dindisplay_pro_mediumIt') format('svg');
+    src: url('../fonts/pfdindisplaypro-medital-webfont.eot');
+    src: url('../fonts/pfdindisplaypro-medital-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/pfdindisplaypro-medital-webfont.woff') format('woff'),
+    url('../fonts/pfdindisplaypro-medital-webfont.ttf') format('truetype'),
+    url('../fonts/pfdindisplaypro-medital-webfont.svg#pf_dindisplay_pro_mediumIt') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'pf_dindisplay_probold';
-    src: url('fonts/pfdindisplaypro-bold-webfont.eot');
-    src: url('fonts/pfdindisplaypro-bold-webfont.eot?#iefix') format('embedded-opentype'),
-    url('fonts/pfdindisplaypro-bold-webfont.woff') format('woff'),
-    url('fonts/pfdindisplaypro-bold-webfont.ttf') format('truetype'),
-    url('fonts/pfdindisplaypro-bold-webfont.svg#pf_dindisplay_probold') format('svg');
+    src: url('../fonts/pfdindisplaypro-bold-webfont.eot');
+    src: url('../fonts/pfdindisplaypro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/pfdindisplaypro-bold-webfont.woff') format('woff'),
+    url('../fonts/pfdindisplaypro-bold-webfont.ttf') format('truetype'),
+    url('../fonts/pfdindisplaypro-bold-webfont.svg#pf_dindisplay_probold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
