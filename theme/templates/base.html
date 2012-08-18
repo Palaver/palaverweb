@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Palaver IRC - The IRC client you've been waiting for.</title>
+
+        <meta charset="utf-8">
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/screen.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> 
+        <script type="text/javascript" src="{{ SITEURL }}/theme/js/custom.js"></script> 
+    </head>
+
+    <body>
+        <header>
+            <a id="logo" href="#">Palaver</a>
+
+            <ul>
+                <li><a href="#">Roadmap</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="{{ PALAVER_APP_STORE_URL }}">App Store</a></li>
+            </ul> 
+        </header>
+
+      {% block content %}
+      {% endblock %}
+
+        <br clear="all" />
+
+        <footer>
+            <h3>Newsletter</h3>
+            <p>Interested in <strong>Palaver</strong>? Subscribe to our newsletter!</p>
+            <input id="email" type="text" value="Your@email.com" />
+            <input id="submit" type="submit" value="" />
+
+            <aside>
+                <a href="{{ PALAVER_APP_STORE_URL }}"><b>Get it now!</b></a>
+
+                <div>
+                    <h3>QR code</h3>
+                    <p>Scan to automatically<br />install Palaver</p>
+                    <img src="{{ SITEURL }}/theme/img/qrcode.png" />
+                </div>
+            </aside>
+
+            <br clear="all" />
+
+            <ul>
+                <li><a href="#">Promotion</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Back to top</a></li>
+            </ul>
+
+            <br clear="all" />
+
+            <span>&copy; 2012 <strong>Palaver</strong></span>
+        </footer>
+
+        <div id="overlay">Version for mobile devices coming soon...</div>
+
+        {% include 'analytics.html' %}
+    </body>
+</html>

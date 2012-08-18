@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div id="teaser">
+        <img src="{{ SITEURL }}/theme/img/iphone-model.png" />
+
+        <h1>Palaver IRC</h1>
+        <span>"The IRC Client<br />you've been waiting for..."</span>
+
+        <a href="#"><b>Get it now!</b></a>
+    </div>
+
+    <div class="half">
+        <h2>Welcome!</h2>
+        <p>Palaver is a new and unique IRC client for iOS. It was created
+        to make using IRC a pleasure. What resulted was an IRC client
+        perfectly fit for you and your mobile devices!</p>
+    </div>
+
+    <div class="half">
+        <h2>Where does the name come from?</h2>
+        <p id="def"><strong>pa&#183;lav&#183;er</strong> &nbsp; /pəˈlavər/<br />
+        [noun] Prolonged and idle discussion.</p>
+    </div>
+
+    <hr />
+
+    <div class="full">
+        <ul id="chooser">
+            <li>
+                <strong>Easy navigation</strong>
+                <p>In order to maximize the use of available space on the
+                screen, we hid away queries and users in a smart
+                ‘viewdeck’ menu.</p>
+            </li>
+
+            <li>
+                <strong>ZNC integration</strong>
+                <p>Palaver includes the best ZNC integration ever seen in a
+                mobile irc client.</p>
+            </li>
+
+            <li>
+                <strong>Lightning fast</strong>
+                <p>Palaver was designed from the ground up with eye for
+                performance. Only weighing <load actual size>kb, this app
+                feels like flying.</p>
+            </li>
+        </ul>
+
+        <aside>
+            <img src="{{ SITEURL }}/theme/img/preview_znc.png" />
+        </aside>
+    </div>
+{% endblock %}
