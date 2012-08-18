@@ -29,10 +29,13 @@
         <br clear="all" />
 
         <footer>
-            <h3>Newsletter</h3>
-            <p>Interested in <strong>Palaver</strong>? Subscribe to our newsletter!</p>
-            <input id="email" type="text" value="Your@email.com" />
-            <input id="submit" type="submit" value="" />
+            <form method="post"
+                    action="http://palaverapp.us5.list-manage.com/subscribe/post?u=6364cd50aceabe31e7a3b205d&id=fd1c69a4e8">
+                <h3>Newsletter</h3>
+                <p>Interested in <strong>Palaver</strong>? Subscribe to our newsletter!</p>
+                <input id="email" name="EMAIL" type="text" placeholder="Your@email.com" />
+                <input id="submit" type="submit" value="" />
+            </form>
 
             <aside>
                 <a href="{{ PALAVER_APP_STORE_URL }}"><b>Get it now!</b></a>
