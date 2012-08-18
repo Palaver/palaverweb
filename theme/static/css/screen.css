@@ -522,4 +522,5 @@ canvas {
     font-size: 40px;
     color: #999;
     display: none;
+	z-index: 3;
 }
