@@ -27,29 +27,28 @@
 
     <div class="full">
         <ul id="chooser">
-            <li>
+            <li data-image="">
                 <strong>Easy navigation</strong>
                 <p>In order to maximize the use of available space on the
                 screen, we hid away queries and users in a smart
                 ‘viewdeck’ menu.</p>
             </li>
 
-            <li>
+            <li data-image="{{ SITEURL }}/theme/img/preview_znc.png">
                 <strong>ZNC integration</strong>
-                <p>Palaver includes the best ZNC integration ever seen in a
-                mobile irc client.</p>
+                <p>Palaver includes intergrated timestamps and buffer with ZNC.</p>
             </li>
 
-            <li>
+            <li data-image="">
                 <strong>Lightning fast</strong>
                 <p>Palaver was designed from the ground up with eye for
-                performance. Only weighing <load actual size>kb, this app
+                performance. Only weighing 800kb, this app
                 feels like flying.</p>
             </li>
         </ul>
 
         <aside>
-            <img src="{{ SITEURL }}/theme/img/preview_znc.png" />
+            <img id="chooser-image" width="243" heigth="367" src="{{ SITEURL }}/theme/img/preview_znc.png" />
         </aside>
     </div>
 {% endblock %}

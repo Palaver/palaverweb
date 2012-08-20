@@ -21,4 +21,15 @@ $(document).ready(function() {
     });
 
     resizeText();
+
+    $('#chooser li').mouseenter(function(e) {
+        var image = $(this).attr('data-image');   
+
+        if (image !== $('#chooser-image').attr('src')) {
+            $('#chooser-image').fadeOut(function() {
+                $(this).attr('src', image);
+                $(this).fadeIn();
+            });
+        }
+    });
 });
