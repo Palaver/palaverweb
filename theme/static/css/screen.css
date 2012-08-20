@@ -472,13 +472,13 @@ canvas {
     z-index: 0;
 }
 
-a {
+#roadmap a {
     color: #3c5987;
     text-decoration: none;
     border-bottom: 1px dashed;
 }
 
-a:hover {
+#roadmap a:hover {
     color: #486aa0;
 }
 
