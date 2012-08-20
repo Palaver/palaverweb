@@ -10,6 +10,8 @@ TIMEZONE = 'Europe/London'
 
 DEFAULT_LANG = 'en'
 
+DIRECT_TEMPLATES = ('index', 'roadmap',)
+
 PALAVER_APP_STORE_URL = 'http://itunes.apple.com/us/app/palaver/id538073623?ls=1&mt=8'
 
 

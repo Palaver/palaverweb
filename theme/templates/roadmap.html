@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block js_extra %}
+        <script type="text/javascript" src="{{ SITEURL }}/theme/js/roadmap.js"></script> 
+{% endblock %}
+
+{% block content %}
+    <div id="teaser-small">
+        <h1>Roadmap</h1>
+    </div>
+    
+    <div id="roadmap">
+        <div class='version current'>
+          <h2>1.0 <small>(current)</small></h2>
+          <ul>
+          </ul>
+
+          <strong>Note:</strong>
+          <em>First public release of Palaver for iOS.</em>
+        </div>
+        
+        <div class="version future">
+          <h2>1.1</h2>
+          <ul>
+              <li>Feature #2 - Support push notifications.</li>
+              <li>Feature #5 - Support media upload (image/video).</li>
+              <li>Feature #9 - Store networks in iCloud.</li>
+          </ul>
+        </div>
+    
+    	<canvas id="canvas"></canvas>
+    
+{% endblock %}
