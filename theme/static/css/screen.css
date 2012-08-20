@@ -285,6 +285,8 @@ footer {
     color: #7a7f81;
     font-size: 12px;
     line-height: 23px;
+    position: relative;
+    z-index: 2;
 }
 
 footer h3, footer p {
