@@ -431,11 +431,11 @@ div.version {
 }
 
 div.version ul li {
-    margin: 0 0 0 -16px;
+    margin: 0 0 5px -16px;
     font-size: 14px;
 }
 
-div.previous ul li, div.current ul li {
+div.previous ul li {
     text-decoration:line-through;
 }
 
@@ -456,6 +456,11 @@ div h2 small {
     color: #d9d9d9;
 }
 
+div.version strong {
+    display: inline-block;
+    margin-top: 8px;
+}
+
 canvas {
     position:absolute;
     width: 100%;
@@ -465,6 +470,16 @@ canvas {
     right: 0;
     bottom: 0;
     z-index: 0;
+}
+
+a {
+    color: #3c5987;
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+a:hover {
+    color: #486aa0;
 }
 
 
