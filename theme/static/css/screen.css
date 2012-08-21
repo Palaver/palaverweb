@@ -250,7 +250,7 @@ hr {
 #chooser strong {
     color: #313131;
     font-size: 27px;
-    font-family: "pf_dindisplay_pro_mediumRg";
+    font-family: "pf_dindisplay_pro_mediumRg" !important;
     padding: 0;
     margin: 0 0 -10px 0;
     display: block;
