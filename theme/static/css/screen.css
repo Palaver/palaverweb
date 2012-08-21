@@ -9,6 +9,11 @@ body,html {
 
 body * {
     font-style: normal !important;
+    font-weight: normal !important;
+}
+
+h1, h2, strong {
+    font-family: "pf_dindisplay_probold" !important;
 }
 
 header {
