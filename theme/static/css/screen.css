@@ -78,10 +78,9 @@ header ul li a:hover {
 }
 
 #teaser-small {
-    background-image: url(../img/teaser-small.png);
+    background-image: url(../img/teaser-small.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: 100%;
     width: 100%;
     height: 78px;
     display: block;
