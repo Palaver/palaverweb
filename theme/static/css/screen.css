@@ -137,8 +137,15 @@ header ul li a:hover {
     height: 75px;
 }
 
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+	#teaser a {
+		background: url(../img/button@2x.png) no-repeat;
+		background-size: 100% 200%;
+	}
+}
+
 #teaser a:hover {
-    background-position: 0 -75px;
+    background-position: 0 100%;
 }
 
 #teaser a b {
